@@ -1,0 +1,33 @@
+# ---- Virtual environments (recreatable from requirements.txt — never commit) ----
+venv/
+.venv/
+env/
+ENV/
+*/venv/
+*/.venv/
+
+# ---- Python caches & build junk ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- Jupyter checkpoints ----
+.ipynb_checkpoints/
+
+# ---- Downloaded datasets (re-downloadable — keep them out of Git) ----
+data/
+*/data/
+
+# ---- Trained model weights (large; recreatable by re-training) ----
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.onnx
+
+# ---- Editor / OS files ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

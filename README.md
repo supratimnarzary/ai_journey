@@ -23,7 +23,7 @@ Earlier projects (before this structured journey): **Loan Default Prediction** a
 
 ## Status
 - [x] Project 1 — House Price Prediction
-- [ ] Project 2 — Image Classification
+- [x] Project 2 — Image Classification
 - [ ] Project 3 — OCR
 - [ ] Project 4 — Text Classification with Transformers
 - [ ] Project 5 — RAG Q&A System
